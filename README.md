@@ -10,21 +10,25 @@ This is a simple banking system implemented in Python. It allows users to create
 
 ## Features
 - **Account Creation:** Users can create a new bank account by providing their name and initial balance.
-  ![Screenshot 2023-12-09 223500](https://github.com/nimfadelgado/NC-Online-Bank/assets/119932703/f1650cc2-845a-4377-9baf-f743f7cffd16)
+  ![Screenshot (32)](https://github.com/nimfadelgado/NC-Online-Bank/assets/119932703/d0bb0eae-48aa-44f7-934b-d6c752f632a1)
+
 
 - **Deposit:** Account holders can deposit money into their accounts.
   
-  ![Screenshot 2023-12-09 224016](https://github.com/nimfadelgado/NC-Online-Bank/assets/119932703/afc908b3-a3d4-4441-8eee-b90bb23fae10)
+  ![Screenshot (33)](https://github.com/nimfadelgado/NC-Online-Bank/assets/119932703/fc892783-b65a-47bc-9d52-682f2b5e8210)
+
 
 - **Withdrawal:** Account holders can withdraw money, provided they have sufficient funds.
   
-  ![Screenshot 2023-12-09 224135](https://github.com/nimfadelgado/NC-Online-Bank/assets/119932703/ce91c012-ed34-467e-bdcf-7a453b36d37f)
+  ![Screenshot (34)](https://github.com/nimfadelgado/NC-Online-Bank/assets/119932703/7d60c7c9-8724-4fea-aafd-b9fb19df9e16)
+
 
 - **Check Balance:** Users can check the balance of their accounts.
   
-  ![Screenshot 2023-12-09 224227](https://github.com/nimfadelgado/NC-Online-Bank/assets/119932703/00ea7714-4710-40ca-84ba-8d5a4c6ec1c6)
+  ![Screenshot (35)](https://github.com/nimfadelgado/NC-Online-Bank/assets/119932703/3d0fa86b-1d98-4363-917c-7e79ab498d5a)
+
 
 - **Quit:** Exit the banking system.
   
-  ![Screenshot 2023-12-09 224331](https://github.com/nimfadelgado/NC-Online-Bank/assets/119932703/61fe8c88-3584-4848-8bef-0b37cc43bfab)
+  
 
