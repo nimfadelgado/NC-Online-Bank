@@ -3,6 +3,13 @@
 ## Overview
 This is a simple banking system implemented in Python. It allows users to create accounts, deposit and withdraw money, check account balances, and exit the banking system.
 
+## Sustainable Development Goal Alignment
+**Goal 1: No Poverty**
+
+-Access to financial services, including banking, is a critical element in poverty reduction efforts.
+-The project provides a simple simulation of banking operations, allowing individuals to create accounts, manage money, and check balances.
+-Access to banking services can empower individuals economically and contribute to their financial well-being, addressing one aspect of poverty.
+
 ## Features
 - **Account Creation:** Users can create a new bank account by providing their name and initial balance.
   ![Screenshot 2023-12-09 223500](https://github.com/nimfadelgado/NC-Online-Bank/assets/119932703/f1650cc2-845a-4377-9baf-f743f7cffd16)
