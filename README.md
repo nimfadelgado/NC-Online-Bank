@@ -7,7 +7,9 @@ This is a simple banking system implemented in Python. It allows users to create
 **Goal 1: No Poverty**
 
 -Access to financial services, including banking, is a critical element in poverty reduction efforts.
+
 -The project provides a simple simulation of banking operations, allowing individuals to create accounts, manage money, and check balances.
+
 -Access to banking services can empower individuals economically and contribute to their financial well-being, addressing one aspect of poverty.
 
 ## Features
