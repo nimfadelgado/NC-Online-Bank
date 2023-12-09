@@ -1,6 +1,7 @@
 import random
 import tkinter as tk
 from tkinter import messagebox, simpledialog
+from datetime import datetime
 
 class Bank:
     def __init__(self):
@@ -16,7 +17,8 @@ class Bank:
     def deposit(self, account_number, amount):
         if account_number in self.accounts:
             self.accounts[account_number]['balance'] += amount
-            self.transactions[account_number].append(f"Deposit: +{amount}")
+            transaction_info = f"{datetime.now():%Y-%m-%d %H:%M:%S} - Deposit: +{amount}"
+            self.transactions[account_number].append(transaction_info)
             messagebox.showinfo("Deposit Successful", f"Deposit successful. New balance: {self.accounts[account_number]['balance']}")
         else:
             messagebox.showerror("Error", "Invalid account number.")
@@ -25,7 +27,7 @@ class Bank:
         if account_number in self.accounts:
             balance = self.accounts[account_number]['balance']
             transactions = "\n".join(self.transactions[account_number])
-            receipt = f"Account Balance: {balance}\nTransaction History:\n{transactions}"
+            receipt = f"Account Balance: {balance}\n\nTransaction History:\n{transactions}"
             messagebox.showinfo("Account Balance", receipt)
         else:
             messagebox.showerror("Error", "Invalid account number.")
@@ -36,6 +38,11 @@ class Bank:
     def save_transaction_history_to_file(self, account_number, filename):
         transactions = self.transactions.get(account_number, [])
         with open(filename, 'w') as file:
+            file.write(f"------NC Online Bank------\n\n")
+            file.write(f"Account Number: {account_number}\n")
+            file.write(f"Account Holder: {self.accounts[account_number]['name']}\n")
+            file.write(f"Date: {datetime.now():%Y-%m-%d %H:%M:%S}\n\n")
+            file.write("Transaction History:\n")
             file.write("\n".join(transactions))
 
 class BankingApp(tk.Tk):
