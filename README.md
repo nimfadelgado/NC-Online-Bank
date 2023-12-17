@@ -1,14 +1,14 @@
 # NC-Online-Bank
 
-## Overview
+## OVERVIEW
 The NC Online Bank is a simple banking application implemented in Python using the Tkinter library for the graphical user interface. It allows users to create accounts, deposit money, check balances, view transaction history, and save transaction history to a file.
 
-## Sustainable Development Goal Alignment
+## SUSTAINABLE DEVELOPMENT GOAL ALIGNMENT
 **Goal 1: No Poverty**
 
--Access to financial services, including banking, is a critical element in poverty reduction efforts.The project provides a simple simulation of banking operations, allowing individuals to create accounts, manage money, and check balances.Access to banking services can empower individuals economically and contribute to their financial well-being, addressing one aspect of poverty.
+Access to financial services, including banking, is a critical element in poverty reduction efforts.The project provides a simple simulation of banking operations, allowing individuals to create accounts, manage money, and check balances.Access to banking services can empower individuals economically and contribute to their financial well-being, addressing one aspect of poverty.
 
-## Features
+## FEATURES
 **Create Account**: Users can create a new bank account by providing their name and an initial balance.
 ![received_798551848740701](https://github.com/nimfadelgado/NC-Online-Bank/assets/119932703/de1dcd2a-98b0-4f9a-8c95-b9f11bafc03d)
 
@@ -42,14 +42,23 @@ The NC Online Bank is a simple banking application implemented in Python using t
 
 **Quit**: Exit the application.
 
-## Group Members
-**Clareza Portugal**
+## SELF ASSESSMENT
+**Based on the given rubric for grading, the group assesed the system and it resulted to this:**
+| Metric               | 4                | 3                | 2                | 1                |
+| -------------------- | ---------------- | ---------------- | ---------------- | ---------------- |
+| Code Reusability     |                  | ✔                |                  |                  |
+| Maintainability      |                  | ✔                |                  |                  |
+| Scalability          | ✔                |                  |                  |                  |
+| Execution            | ✔                |                  |                  |                  |
+| Originality          |                  |                  | ✔                  |                |
+| Overall Impression   |                  | ✔                |                  |                  |
 
---Programmer Contribution - 50%
+## PEER EVALUATION
+| SR-CODE  | MEMBER                    | GRADE | DESIGNATION           |
+| -------- | ------------------------- | ----- | ----------------------|
+| 22-07090 | PORTUGAL, CLAREZA          | 50%   | Programmer            |
+| 22-09031 | DELGADO, NIMFA             | 505   | Troubleshooter       |
 
-**Nimfa Delgado**
-
---Trouble Shooter Contribution - 50%
 
 
   
