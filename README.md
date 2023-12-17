@@ -57,7 +57,7 @@ Access to financial services, including banking, is a critical element in povert
 | SR-CODE  | MEMBER                    | GRADE | DESIGNATION           |
 | -------- | ------------------------- | ----- | ----------------------|
 | 22-07090 | PORTUGAL, CLAREZA          | 50%   | Programmer            |
-| 22-09031 | DELGADO, NIMFA             | 505   | Troubleshooter       |
+| 22-09031 | DELGADO, NIMFA             | 50%   | Troubleshooter       |
 
 
 
